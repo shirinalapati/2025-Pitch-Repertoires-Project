@@ -8,6 +8,17 @@ A web application for analyzing baseball pitcher pitch data based on the given p
 - **Node.js 16+** and **npm** (for frontend)
 - SQLite database (`pitches.db`) in the `backend/` directory
 
+## Database Setup
+
+**Important:** The `pitches.db` database file (302 MB) is not included in this repository due to GitHub's file size limit of 100 MB.
+
+To run this application, you need to obtain the `pitches.db` file separately and place it in the `backend/` directory.
+
+Once you have the database file, ensure it is located at:
+```
+backend/pitches.db
+```
+
 ## Installation
 
 ### Backend Setup
@@ -152,7 +163,8 @@ The backend provides the following endpoints:
 
 - **Port 8000 already in use**: If you see "Address already in use", another process is using port 8000. Either stop that process or modify `main.py` to use a different port.
 
-- **Database not found**: Ensure `pitches.db` exists in the `backend/` directory.
+- **Database not found**: Ensure `pitches.db` exists in the `backend/` directory. The database file is not included in this repository due to size limitations. See the "Database Setup" section above for instructions on obtaining the database file.
+
 
 - **Module not found errors**: Make sure you've activated the virtual environment and installed dependencies with `pip install -r requirements.txt`.
 
@@ -163,4 +175,3 @@ The backend provides the following endpoints:
 - **Cannot connect to backend**: Ensure the backend server is running on `http://127.0.0.1:8000`. Check `src/constants.js` if you need to change the API base URL.
 
 - **Module not found errors**: Run `npm install` in the `frontend/` directory to install all dependencies.
-# 2025-Pitch-Repertoires-Project
