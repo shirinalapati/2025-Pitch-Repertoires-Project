@@ -1,0 +1,27 @@
+# Database file (too large for GitHub)
+backend/pitches.db
+
+# Python virtual environment
+backend/venv/
+
+# Node modules
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
