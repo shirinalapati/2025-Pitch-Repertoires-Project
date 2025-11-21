@@ -4,6 +4,13 @@ A web application for analyzing baseball pitcher pitch data based on the given p
 
 ## Prerequisites
 
+https://github.com/user-attachments/assets/2f622d67-923c-42ad-86e5-66ffaae252ec
+https://github.com/user-attachments/assets/6345211c-eec0-4b78-ac5a-abf5aa5b80ec
+https://github.com/user-attachments/assets/e7b85d18-1247-41cd-a322-1da5a7bd551b
+
+
+
+
 - **Python 3.8+** (for backend)
 - **Node.js 16+** and **npm** (for frontend)
 - SQLite database (`pitches.db`) in the `backend/` directory
